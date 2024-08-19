@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-com</e-com></title>
+    <!-- google-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<!-- font-awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Nastra</h1>
+        <div class="navbar-links">
+          <p class="navbar-link"><a href="index.html">Home</a></p>
+          <p class="navbar-link"><a href="collection.html">Collection</a></p>
+          <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+             <i class="fa-solid fa-bars"></i>
+
+        </div>
+
+    
+    </nav>
+
+    <div class="side-navbar">
+        <p style="text-align: right;">
+            <i class="fa-solid fa-xmark" onclick="closenavbar()" ></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collection</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+          </div>
+    </div>
+
+
+    <!-- product -->
+    <div class="product-section">
+     
+        <form  class="product-search" action="">
+           
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="products" id="products">
+            <div class="products-box">
+                 <img src="https://www.istockphoto.com/en/search/2/image?mediatype=&phrase=white%20shirt&utm_source=pixabay&utm_medium=affiliate&utm_campaign=SRP_image_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fwhite%2520shirt%2F&utm_term=white+shirt" alt="" width="200px" height="150px">
+                 <p>White Shirt</p>
+
+            </div>
+
+            <div class="products-box">
+                <img src="https://www.istockphoto.com/photo/plain-black-t-shirt-hanging-on-wall-gm1206211067-347789227?utm_source=pixabay&utm_medium=affiliate&utm_campaign=SRP_image_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fblack%2520shirt%2F&utm_term=black+shirt" alt="" width="200px" height="150px">
+                <p>Black Shirt</p>
+
+           </div>
+
+           <div class="products-box">
+            <img src="https://www.istockphoto.com/photo/mens-short-sleeve-t-shirt-mockup-in-front-and-back-views-gm1328049157-412223238?utm_source=pixabay&utm_medium=affiliate&utm_campaign=SRP_image_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fblue%2520shirt%2F&utm_term=blue+shirt" alt="" width="200px" height="150px">
+            <p>Blue Shirt</p>
+
+       </div>
+
+       <div class="products-box">
+        <img src="https://www.istockphoto.com/photo/buckle-up-youre-about-to-get-married-gm1173486515-325959396?utm_source=pixabay&utm_medium=affiliate&utm_campaign=SRP_image_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fmens%2520pant%2F&utm_term=mens+pant" alt="" width="200px" height="150px">
+        <p>Mens pant</p>
+
+   </div>
+   <div class="products-box">
+    <img src="https://www.istockphoto.com/photo/a-person-is-looking-through-a-rack-of-clothes-concept-of-election-gm2152217447-573245135?utm_source=pixabay&utm_medium=affiliate&utm_campaign=SRP_image_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Ft%2520-%2520shirts%2F&utm_term=t+shirts" alt="" width="200px" height="150px">
+    <p>T-Shirts</p>
+
+</div>
+<div class="products-box">
+    <img src="https://www.istockphoto.com/photo/denim-lets-get-back-to-basics-gm1014074006-273000795?utm_source=pixabay&utm_medium=affiliate&utm_campaign=SRP_image_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fmens%2520shoes%2F&utm_term=mens+shoes" alt="" width="200px" height="150px">
+    <p> Mens-shoes</p>
+
+</div>
+
+        </div>
+
+    </div>
+    
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingtext">Nastra</h2>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, sunt?</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <p>@ 2024 Nastra.com</p>
+    </div>
+    
+    <script>
+        var sidenav= document.querySelector(".side-navbar")
+
+function shownavbar()
+{
+    sidenav.style.left="0"
+}
+function closenavbar()
+{
+    sidenav.style.left="-60%"
+
+}
+
+var productContainer = document.getElementById("products")
+var search = document.getElementById("search")
+var productlist = productContainer.querySelectorAll("div")
+
+search.addEventListener("keyup",function(){
+    var enteredValue = event.target.value.toUpperCase()
+    for(count=0;count<productlist.length;count=count+1)
+{
+    var productname =productlist[count].querySelector("p").textContent
+
+    if(productname.toUpperCase().indexOf(enteredValue)<0)
+    {
+       productlist[count].style.display="none"
+    }
+    else{
+        productlist[count].style.display="block"
+        
+    }
+}
+})
+    </script>
+
+   
+</body>
+</html>
